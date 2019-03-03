@@ -1,0 +1,15 @@
+IP scanning tool for Windows by hXR16F.
+
+Syntax:
+
+  BatchIPScanner -in ^<IP^> ^<RANGE^> ^<THREADS^> ^<TIMEOUT^>
+
+Default variables:
+
+  THREADS = 25
+  TIMEOUT = 300 ms ^(~300 for LAN ^| ~800 and more for global^)
+
+Examples:
+
+  BatchIPScanner -in 192.168.0.1 192.168.1.255
+  BatchIPScanner -in 216.58.208.46 216.58.208.146 30 800
